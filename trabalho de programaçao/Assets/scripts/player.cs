@@ -30,7 +30,7 @@ public class player : MonoBehaviour
         spriteflip(inputhorizontal);
 
         // Verifica se o personagem está se movendo
-        if (velocidade = 0)
+        if (inputhorizontal != 0)
         {
             // Quando o personagem está se movendo, a animação "andando" é ativada.
             animacao.SetBool("andando", true);
